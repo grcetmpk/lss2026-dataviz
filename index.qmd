@@ -10,4 +10,4 @@ In this workshop, we will learn the basics of data visualization using R and the
 
 ## About the Speaker
 
-Dr. Grace Tompkins is an Assistant Professor of Teaching at the University of British Columbia and a recent PhD graduate in Biostatistics from the University of Waterloo. Her teaching focuses on building confidence in statistics and data science by creating inclusive and supportive learning environments. Outside of the classroom, Grace shares free educational content on her YouTube channel (@proftompkins) for students and the broader statistics and data science community.
+[Dr. Grace Tompkins](grcetmpk.github.io) is an Assistant Professor of Teaching at the University of British Columbia and a recent PhD graduate in Biostatistics from the University of Waterloo. Her teaching focuses on building confidence in statistics and data science by creating inclusive and supportive learning environments. Outside of the classroom, Grace shares free educational content on her YouTube channel (@proftompkins) for students and the broader statistics and data science community.
