@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "lss2026-dataviz"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - slides.qmd
+      - notes.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Life Science Symposium: Data Visualization Workshop",
+    "section": "",
+    "text": "In this workshop, we will learn the basics of data visualization using R and the ggplot2 package. This workshop is intended to be a brief intro or “refresher” to these topics."
+  },
+  {
+    "objectID": "index.html#workshop-details",
+    "href": "index.html#workshop-details",
+    "title": "Life Science Symposium: Data Visualization Workshop",
+    "section": "",
+    "text": "In this workshop, we will learn the basics of data visualization using R and the ggplot2 package. This workshop is intended to be a brief intro or “refresher” to these topics."
+  },
+  {
+    "objectID": "index.html#about-the-speaker",
+    "href": "index.html#about-the-speaker",
+    "title": "Life Science Symposium: Data Visualization Workshop",
+    "section": "About the Speaker",
+    "text": "About the Speaker\nDr. Grace Tompkins is an Assistant Professor of Teaching at the University of British Columbia and a recent PhD graduate in Biostatistics from the University of Waterloo. Her teaching focuses on building confidence in statistics and data science by creating inclusive and supportive learning environments. Outside of the classroom, Grace shares free educational content on her YouTube channel (@proftompkins) for students and the broader statistics and data science community."
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Coming soon :)"
+  },
+  {
+    "objectID": "slides.html#welcome",
+    "href": "slides.html#welcome",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Welcome!",
+    "text": "Welcome!\nWho am I?\n\nMy name is Grace\nI’m a Biostatistician and Assistant Professor of Teaching (Dept. of Statistics)  \n\nWho is this workshop for?\n\nIf you’re new(ish) to R or relatively experienced, you’re in the right place!\nThis workshop will go at your pace - just keep in mind we only have an hour together"
+  },
+  {
+    "objectID": "slides.html#goals-of-this-workshop",
+    "href": "slides.html#goals-of-this-workshop",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Goals of this Workshop",
+    "text": "Goals of this Workshop\nBy the end of this workshop, attendees should be able to:\n\nInteract with data in R more confidently\nCreate plots using ggplot2"
+  },
+  {
+    "objectID": "slides.html#how-to-interact-with-r-in-this-workshop",
+    "href": "slides.html#how-to-interact-with-r-in-this-workshop",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "How to Interact with R in This Workshop",
+    "text": "How to Interact with R in This Workshop\n\nThese slides are built with Quarto + WebR, meaning you can code in them without downloading any software!\nYour code should stay on the web address, but I recommend saving a PDF by [right clicking] -&gt; [Print…] -&gt; [Save/Export to PDF] :)\nFor your own research/projects, I highly recommend checking out how to use RStudio! Here’s a video on how to use RStudio."
+  },
+  {
+    "objectID": "slides.html#data-visualization-why-do-we-use-it",
+    "href": "slides.html#data-visualization-why-do-we-use-it",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Data Visualization: Why Do We Use It?",
+    "text": "Data Visualization: Why Do We Use It?\n\n❌ Tables are hard to digest.\n✅ Visualizations can convey more complex ideas faster\n✅ Visualizations can help us answer descriptive and exploratory questions\n\n⚠️ They do not answer predictive, inferential, or causal questions"
+  },
+  {
+    "objectID": "slides.html#great-data-visualizations",
+    "href": "slides.html#great-data-visualizations",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Great Data Visualizations",
+    "text": "Great Data Visualizations\n“A good visualization will clearly answer your question without distraction; a great visualization will suggest even what the question was itself without additional explanation.” - A First Introduction to Data Science\n\nHow do we accomplish this? Keep this SASS-y\n\nSimple (plot is as simple as possible, minimizing distractions)\nAccessible (colourblind-friendly pallettes are used, text is human-readable)\nSpecific (the purpose of the plot is clear, and explores a specific research question)\nScaled (small differences are not blown up, proportionality is maintained)"
+  },
+  {
+    "objectID": "slides.html#data-visualizations",
+    "href": "slides.html#data-visualizations",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Data Visualizations",
+    "text": "Data Visualizations\nWhich principles of good data visualization are met/violated here?"
+  },
+  {
+    "objectID": "slides.html#data-visualizations-1",
+    "href": "slides.html#data-visualizations-1",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Data Visualizations",
+    "text": "Data Visualizations\n\n(Numbers based off previous image which is… questionably sourced :-) )"
+  },
+  {
+    "objectID": "slides.html#making-nice-plots-in-r",
+    "href": "slides.html#making-nice-plots-in-r",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Making Nice Plots in R",
+    "text": "Making Nice Plots in R\nA crowd favourite package for plotting in R is ggplot2 (which has the ggplot() function).\n\nThere are three key aspects of plots in ggplot2:\n\naesthetic mappings: relates dataframe columns to visual properties\ngeometric objects: disctates how to display those visual properties (type of plot, for example)\nscales: transforms variables, sets limits\n\nWe add these layers one by one using +\n\n\n\n\n\n\n\nImportant Note\n\n\nBuilding plots is an iterative procedure. Try things, make mistakes, and refine!"
+  },
+  {
+    "objectID": "slides.html#todays-demo-penguins",
+    "href": "slides.html#todays-demo-penguins",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Today’s Demo: Penguins!",
+    "text": "Today’s Demo: Penguins!\nWe will explore the penguins data set from the palmerpenguins package in R."
+  },
+  {
+    "objectID": "slides.html#research-questions",
+    "href": "slides.html#research-questions",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Research Questions",
+    "text": "Research Questions\nAn interesting research question may be how some of these measurements within a penguin are related. Let’s investigate the following:\n\nDescriptive Visualizations\n\nWhat species of penguins are in my data set? How many of each sex?\nWhat does the distribution of bill length measurements look like?\n\nExploratory Visualizations\n\nDo penguins with longer bills also tend to have wider bills?\nDo certain species of penguin tend to have larger bills?"
+  },
+  {
+    "objectID": "slides.html#choosing-a-data-visualization",
+    "href": "slides.html#choosing-a-data-visualization",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Choosing a Data Visualization",
+    "text": "Choosing a Data Visualization\nTypically a data visualization is 2-Dimensional (think of drawing a plot on a piece of paper). We can easily visualize the relationship between two variables.\n\nWhat plot should I use?\n\nScatterplots: used to visualize two quantitative (numeric) variables\nLine plots: used to visualize trends with respect to an independent quantity (like time)\nBar plots: used to visualize the comparison of amounts (categorical variables). Can be stacked or grouped to show the relationships across another categorical variable.\nBox plot or histograms: used to visualize distributions, perhaps across groups."
+  },
+  {
+    "objectID": "slides.html#choosing-a-data-visualization-counting-penguin-species",
+    "href": "slides.html#choosing-a-data-visualization-counting-penguin-species",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Choosing a Data Visualization: Counting Penguin Species",
+    "text": "Choosing a Data Visualization: Counting Penguin Species\nLet’s visualize the types of penguins (species and sex) in our study.\nIf we wanted to show the counts of each penguin species, which plot should we use?\n\n\n✅ A bar plot! We can plot this using geom_bar() in ggplot."
+  },
+  {
+    "objectID": "slides.html#bar-plot-geom_bar",
+    "href": "slides.html#bar-plot-geom_bar",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Bar Plot (geom_bar())",
+    "text": "Bar Plot (geom_bar())\nLet’s visualize how many penguins of each species we have in our data set"
+  },
+  {
+    "objectID": "slides.html#bar-plot-geom_bar-elevated",
+    "href": "slides.html#bar-plot-geom_bar-elevated",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Bar Plot (geom_bar()): Elevated!",
+    "text": "Bar Plot (geom_bar()): Elevated!\nLet’s get the counts by sex, too!"
+  },
+  {
+    "objectID": "slides.html#choosing-a-data-visualization-1",
+    "href": "slides.html#choosing-a-data-visualization-1",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Choosing a Data Visualization",
+    "text": "Choosing a Data Visualization\nLet’s describe the distribution of the bill lengths in our data set. What visualization should we use?\n\n✅ Histogram! (Or… a box plot)"
+  },
+  {
+    "objectID": "slides.html#histogram-geom_hist",
+    "href": "slides.html#histogram-geom_hist",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Histogram (geom_hist())",
+    "text": "Histogram (geom_hist())"
+  },
+  {
+    "objectID": "slides.html#choosing-a-data-visualization-2",
+    "href": "slides.html#choosing-a-data-visualization-2",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Choosing a Data Visualization",
+    "text": "Choosing a Data Visualization\nLet’s visualize bill depth and bill width, which are measured in millimetres.\n\nWhat visualization should we use?\n\n✅ Scatterplot! We plot this using the geom_point() object within ggplot."
+  },
+  {
+    "objectID": "slides.html#scatterplot-geom_point",
+    "href": "slides.html#scatterplot-geom_point",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Scatterplot (geom_point())",
+    "text": "Scatterplot (geom_point())"
+  },
+  {
+    "objectID": "slides.html#scatterplots-grouping-by-a-categorical-variable",
+    "href": "slides.html#scatterplots-grouping-by-a-categorical-variable",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Scatterplots: Grouping by a Categorical Variable",
+    "text": "Scatterplots: Grouping by a Categorical Variable\nWhat about looking at this relationship between species? Do certain species of penguin tend to have larger bills?\n\n We can group by colour/shape to see if there are trends within/between penguin species!"
+  },
+  {
+    "objectID": "slides.html#try-it-yourself",
+    "href": "slides.html#try-it-yourself",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Try it yourself:",
+    "text": "Try it yourself:\nAre body mass and flipper lengths in penguins related? Does this vary by sex?"
+  },
+  {
+    "objectID": "slides.html#other-data-visualization-tips",
+    "href": "slides.html#other-data-visualization-tips",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Other Data Visualization Tips",
+    "text": "Other Data Visualization Tips\n\nAvoid pie charts.\nAvoid 3D visualizations\n….. Absolutely avoid 3D pie charts\n\n\n\n\n\n\n\nUgly Pie Chart\n\n\n\n\n\n\n\nDisgusting 3D Plot"
+  },
+  {
+    "objectID": "slides.html#looking-for-more",
+    "href": "slides.html#looking-for-more",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Looking for more?",
+    "text": "Looking for more?\n🛑 Before you click any links, save your work as a pdf!\n[Right Click] -&gt; […Print] -&gt; [Save/Export as PDF] (or right click to open links in a new tab)\n\n\nSTAT545 Coursenotes on Data Visualization: https://ubc-stat.github.io/stat545/webpages/lectures_i/lec4_datavis.html (I teach STAT 545 A/B: Exploratory Data Analysis every fall, which is a data science-y course for non-statisticians)\nJenny Bryan’s “Dos and Don’ts of Making Effective Graphs”: https://stat545.com/effective-graphs.html\nR4DataScience Notes on Data Viz: https://r4ds.had.co.nz/data-visualisation.html\nLLMs like Claude, which are quite good at creating data visualizations.\n\n⚠️ NEVER upload private data to an LLM! ⚠️\n\nMy YouTube channel @proftompkins"
+  },
+  {
+    "objectID": "slides.html#thank-you",
+    "href": "slides.html#thank-you",
+    "title": "LSS 2026 Workshop: Data Visualization",
+    "section": "Thank you!",
+    "text": "Thank you!"
+  }
+]
