@@ -3,12 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "lss2026-dataviz"
+  title: "LSS 2026"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - slides.qmd
+      - href: slides.qmd
+        text: Slides
       - notes.qmd
 
 format:
