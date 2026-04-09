@@ -421,3 +421,5 @@ ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g, col = sex)) + geom_
   
 ## Thank you!
 
+Written materials from this presentation can be found [here](https://grcetmpk.github.io/lss2026-dataviz/notes.html): 
+
